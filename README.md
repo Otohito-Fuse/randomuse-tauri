@@ -18,3 +18,4 @@ npm run tauri dev
 ```
 
 You should see your app running.
+
