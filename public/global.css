@@ -1,0 +1,92 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #0F0F0F;
+	background-color: #F5F5F5;
+	box-sizing: border-box;
+	font-family: "Helvetica Neue", 游ゴシック体, YuGothic, 游ゴシック, 'Yu Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo, sans-serif;
+}
+
+h1 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 49px;
+
+	user-select: none; /* CSS3 */
+	-moz-user-select: none; /* Firefox */
+	-webkit-user-select: none; /* Safari、Chromeなど */
+	-ms-user-select: none; /* IE10から */
+}
+
+h2 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+
+	user-select: none; /* CSS3 */
+	-moz-user-select: none; /* Firefox */
+	-webkit-user-select: none; /* Safari、Chromeなど */
+	-ms-user-select: none; /* IE10から */
+}
+
+h3 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+
+	user-select: none; /* CSS3 */
+	-moz-user-select: none; /* Firefox */
+	-webkit-user-select: none; /* Safari、Chromeなど */
+	-ms-user-select: none; /* IE10から */
+}
+
+a {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-decoration-line: none;
+	color: #13AFF1;
+}
+
+a:hover {
+	text-decoration-line: underline;
+}
+
+a:visited {
+	color: #31A9DD;
+}
+
+p {
+	font-family: 'Helvetica Neue';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+input {
+	font-family: inherit;
+	font-size: inherit;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	border: 1px solid #D7E9F1;
+	border-radius: 5px;
+	height: 33px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+input:focus {
+	border: 1px solid #95D5F0;
+	border-radius: 5px;
+}
